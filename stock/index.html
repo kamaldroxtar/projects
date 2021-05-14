@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Stock Notifier</h1>
+    </div>
+
+    <form action="http://127.0.0.1:5000/login" method="post">
+        <label for="Stock_name">To get notified for the target price of your stock, choose Stock below.</label><br>
+        <select name="Stock_name" id="in1">
+            <option value="TATAMOTORS.NS">Tata Motors Limited</option>
+            <option value="YESBANK.NS">Yes Bank Limited</option>
+            <option value="BHEL.NS">Bharat Heavy Electricals Limited</option>
+            <option value="YESBANK.NS">Yes Bank Limited</option>
+            <option value="SBIN.NS">State Bank of India</option>
+            <option value="HINDALCO.NS">Hindalco Industries Limited</option>
+            <option value="BANKBARODA.NS">Bank of Baroda</option>
+            <option value="PNB.NS">Punjab National Bank</option>
+            <option value="IDEA.NS">Vodafone Idea Limited</option>
+            <option value="ITC.NS">ITC Limited</option>
+
+        </select>
+        <br>
+
+        <label for="Entry_price">Enter your tagret price:</label>
+        <input id="in2" type="float" name="Entry_price" placeholder="Entry_price" required />
+
+        <input id="in3" type="float" name="Exit_price" placeholder="Exit_price" required />
+        <br>
+
+        <input id="in4" type="submit" value="submit" />
+        <br>
+    </form>
+    <div class="content">
+        <p> <a id="moneycontrol" href="https://www.moneycontrol.com/stocks/marketstats/nsegainer/index.php"> Check out
+            </a> top gainers
+            on the Sensex, Nifty, or any other index. At a single glance, Now you can also view
+            various parameters like last 5 day performance, Gain Percentage, SMA , Deliverables, Volume. Also, For
+            better understanding, you can sort the list based on prominent features as well.</p>
+    </div>
+
+    <footer>
+        <p>“In investing, what is comfortable is rarely profitable.” – By Robert Arnott</p>
+    </footer>
+</body>
+
+</html>
